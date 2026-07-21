@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@vercel/ncc": "0.38.4",
-    "standard": "^14.3.4"
+    "standard": "^17.1.2"
   },
   "engines": {
     "node": ">= 24"
