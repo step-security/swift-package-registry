@@ -25,7 +25,7 @@ async function main () {
     // inputs from action
     const url = core.getInput('url') || ('https://github.com/' + process.env.GITHUB_REPOSITORY)
     const method = 'post'
-    const payload = { url: url }
+    const payload = { url }
 
     // current time
     const time = new Date().toTimeString()
